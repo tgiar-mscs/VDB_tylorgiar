@@ -1,0 +1,28 @@
+query1
+SELECT        Apartment.*, Building.*
+FROM            Apartment INNER JOIN
+                         Building ON Apartment.Building_ID = Building.Building_ID
+ORDER BY Building.Building_Name
+
+query2
+SELECT        Person.*, Address.*
+FROM            Person INNER JOIN
+                         Address ON Person.Address_ID = Address.Address_ID
+ORDER BY Person.Last_Name
+
+query3 /*I didn't understand what was wanted exactly in query 3 for the address due to there being a star as well, so I selected all columns.*/
+SELECT        Building.Building_Name, Address.*
+FROM            Building INNER JOIN
+                         Address ON Building.Address_ID = Address.Address_ID
+ORDER BY Address.City
+
+query4
+SELECT        Receipt.*, Invoice.*
+FROM            Receipt INNER JOIN
+                         Invoice ON Receipt.Invoice_ID = Invoice.InvoiceID
+
+query5
+SELECT        LineItem.Qty, Product.Name, Product.Price
+FROM            LineItem INNER JOIN
+                         Product ON LineItem.Product_ID = Product.Product_ID
+WHERE        (LineItem.Invoice_ID = 1)
