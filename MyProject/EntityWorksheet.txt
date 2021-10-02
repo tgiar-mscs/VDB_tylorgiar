@@ -1,0 +1,6 @@
+RescueDogs(DogID, DogName, BreedID, DogGender)
+DogBreed(BreedID,Types)
+ShelterCost(CostID, TypeofService, Amount)
+ShelterRevenue(RevenueID, CostID, DogID, FundsID)
+ShelterRecords(RecordsID, DateRescued, LengthofStay, AdoptionDate, DogID)
+ShelterFunds(FundsID, Donations, AdoptionFees, Fundraisers)

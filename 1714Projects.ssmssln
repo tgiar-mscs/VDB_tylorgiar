@@ -7,6 +7,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "1714Projects", "1714Project
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Week6Joins", "Week6Joins\Week6Joins.ssmssqlproj", "{C46195FF-2EF7-48E9-BCEC-FE63CC04CAFE}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyProject", "MyProject\MyProject.ssmssqlproj", "{654C7724-ACC5-42EB-A3D9-607FACFFE727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -14,6 +16,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2F85E526-ED6E-4F3B-8AF5-35A7235FEB39}.Default|Default.ActiveCfg = Default
 		{C46195FF-2EF7-48E9-BCEC-FE63CC04CAFE}.Default|Default.ActiveCfg = Default
+		{654C7724-ACC5-42EB-A3D9-607FACFFE727}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

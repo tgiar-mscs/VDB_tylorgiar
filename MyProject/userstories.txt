@@ -1,0 +1,5 @@
+As a dog shelter manager, I want to rescue and rehome dogs.
+As a manager I want to give the dogs an ID chip with a name.
+As a manager I want to shelter these dogs, give them proper nutritian, and vaccinate them.
+As a manager I hold fundraisers and take donations to provide the sources I need to care for these dogs.
+As a manager my goal is to save as many dogs as I can and give them a second chance at life in a good home.
